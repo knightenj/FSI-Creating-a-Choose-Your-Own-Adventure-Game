@@ -1,7 +1,7 @@
 //Your Code here
 
 const name = window.prompt ("What do we call you?")
-let firstAnswer = window.prompt("Do you head left or right?")
+let firstAnswer = window.prompt("You're at a crossroads, do you head left or right?")
 console.log(firstAnswer)
 
 //If user picked left...
@@ -14,8 +14,7 @@ if (firstAnswer === "left") {
     } else if (secondAnswer === "fight") {
         window.alert("Congratulation, you defeated the dragon and obtained three golden dragon eggs");
     console.log(secondAnswer);
-    
-    }
+    } 
 }
 
 //If user picked right...
